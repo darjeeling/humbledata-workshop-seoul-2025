@@ -40,9 +40,9 @@
 
 1.  [Miniconda 설치 페이지](https://www.anaconda.com/download/success) 으로 이동합니다. 
 2.  자신의 운영체제(Windows/macOS)에 맞는 Miniconda 최신 버전을 우측에서 다운로드하여 설치합니다.
-  1. [윈도우](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
-  2. [맥 M1,M2 이상](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg)
-  3. [인텔 맥](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg)
+    1. [윈도우](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
+    2. [맥 M1,M2 이상](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg)
+    3. [인텔 맥](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg)
 3.  설치 중 묻는 질문은 대부분 기본값(Enter)으로 넘어가시면 됩니다.
 
 ### 2단계: '터미널' 열기
