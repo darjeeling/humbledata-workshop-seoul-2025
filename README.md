@@ -121,7 +121,7 @@ conda deactivate
     ```powershell
     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
     ```
-    실행후에 창을 끄고 시작버튼을 누르고 cmd 를 검색해서 앞으로는 "명령 프롬프트" 창을 실행한다.
+    실행후에 창을 끄고 시작버튼을 누르고 cmd 를 검색해서 앞으로는 **'명령 프롬프트'(Command Prompt)**를 켭니다. (파란 창 아님! 검은 창!)
 * **macOS (Terminal에서):**
     ```bash
     curl -Lsfs [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
@@ -137,6 +137,8 @@ conda deactivate
     * **(팁: `cd `를 치고 한 칸 띈 다음, 폴더를 터미널 창으로 끌어다 놓으면 주소가 자동 완성됩니다!)**
 
 2.  **방 만들기 (`uv venv`):** (터미널에서 해당 폴더에 들어온 상태로 실행)
+
+    시작버튼을 누르고 cmd 를 검색해서 **'명령 프롬프트'(Command Prompt)**를 켭니다. (파란 창 아님! 검은 창!)
     ```bash
     uv venv humble --python 3.10
     ```
