@@ -121,7 +121,7 @@ conda deactivate
     ```powershell
     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
     ```
-    실행후에 창을 끄고 다시 powershell 을 실행한다. 앞으로는 관리자 권한을 누르지 않고 "열기" 로 실행한다.
+    실행후에 창을 끄고 시작버튼을 누르고 cmd 를 검색해서 앞으로는 "명령 프롬프트" 창을 실행한다.
 * **macOS (Terminal에서):**
     ```bash
     curl -Lsfs [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
@@ -138,20 +138,20 @@ conda deactivate
 
 2.  **방 만들기 (`uv venv`):** (터미널에서 해당 폴더에 들어온 상태로 실행)
     ```bash
-    uv venv --python 3.10
+    uv venv humble --python 3.10
     ```
-    * 이 명령을 실행하면 현재 폴더에 `.venv` 라는 이름의 '비밀 방'이 생깁니다.
+    * 이 명령을 실행하면 현재 폴더에 `humble` 라는 이름의 '비밀 방'이 생깁니다.
 
 3.  **방 들어가기 (Activate):**
-    * **Windows (PowerShell):**
-        ```powershell
-        .venv\Scripts\Activate.ps1
+    * **Windows (Commandline):**
+        ```cmd
+        humble\Scripts\activate
         ```
     * **macOS (Terminal):**
         ```bash
         source .venv/bin/activate
         ```
-    * **(성공하면!)** 명령어 맨 앞에 `(.venv)` 라는 표시가 생깁니다. 이제 '방' 안에 들어오신 겁니다!
+    * **(성공하면!)** 명령어 맨 앞에 `(humble)` 라는 표시가 생깁니다. 이제 '방' 안에 들어오신 겁니다!
 
 ### 4단계: '방' 안에 도구 설치하기
 
