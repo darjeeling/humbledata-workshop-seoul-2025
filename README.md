@@ -170,3 +170,5 @@ uv pip install -r requirements.txt
 ```bash
 deactivate
 ```
+
+[발표자료](https://docs.google.com/presentation/d/1bBAyNd5jLiDUw1vfrG4Gir7c9R-3ofKgGMUFD3JZ9Us/edit?usp=sharing)
