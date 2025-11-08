@@ -182,4 +182,11 @@ jupyter notebook
 deactivate
 ```
 
+# 실습시에 유의사항
+
+윈도우의 경우 `!cat` 으로 답을 보는것이 안됩니다.
+`!type solution\filename.py` 로 바꿔주세요.
+
+
+
 [발표자료](https://docs.google.com/presentation/d/1bBAyNd5jLiDUw1vfrG4Gir7c9R-3ofKgGMUFD3JZ9Us/edit?usp=sharing)
