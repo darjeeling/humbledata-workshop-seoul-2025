@@ -88,7 +88,10 @@
 
     ```bash
     pip install -r requirements.txt
+    jupyter notebook
     ```
+    실행후에 브라우저로 http://localhost:8888/tree 여세요.
+
 
 ### 5단계: 방 나오기 (Deactivate)
 
@@ -162,6 +165,14 @@ conda deactivate
 ```bash
 uv pip install -r requirements.txt
 ```
+
+### 4단계 실행하기
+
+```bash
+jupyter notebook
+```
+
+실행후에 브라우저로 http://localhost:8888/tree 여세요.
 
 ### 5단계: 방 나오기 (Deactivate)
 
